@@ -55,7 +55,7 @@ const SignupForm = () => {
           <label htmlFor="password">Password</label>
           <br />
           <input
-            type="text"
+            type="password"
             name="password"
             id="password"
             value={pass}
@@ -66,7 +66,7 @@ const SignupForm = () => {
           <label htmlFor="confirmpassword">Confirm Password</label>
           <br />
           <input
-            type="text"
+            type="password"
             name="confirmpassword"
             id="confirmpassword"
             value={confirmPass}

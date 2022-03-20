@@ -52,7 +52,7 @@ const LoginForm = () => {
           <label htmlFor="password">Password</label>
           <br />
           <input
-            type="text"
+            type="password"
             name="password"
             id="password"
             value={pass}
